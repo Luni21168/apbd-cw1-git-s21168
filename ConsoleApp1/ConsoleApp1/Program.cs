@@ -11,7 +11,7 @@ class Program
         Console.WriteLine(val[0]);
         Console.WriteLine(num1);
 
-        Console.WriteLine("Zadanie1");
+        Console.WriteLine("Feature-average");
     }
 
     public static double CalculateAverage(int[] values)
