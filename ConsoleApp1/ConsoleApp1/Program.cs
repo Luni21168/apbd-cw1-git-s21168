@@ -19,6 +19,9 @@ class Program
 
         int max = CalculateMax(val);
         Console.WriteLine(max);
+        
+        int min = CalculateMin(val);
+        Console.WriteLine(min);
     }
 
     public static double CalculateAverage(int[] values)
