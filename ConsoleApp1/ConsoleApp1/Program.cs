@@ -10,13 +10,13 @@ class Program
         int[] val = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         Console.WriteLine(val[0]);
         Console.WriteLine(num1);
-        
+
 
         Console.WriteLine("Feature-average v2");
         double average = CalculateAverage(val);
         Console.WriteLine(average);
-        
-        
+
+
         int max = CalculateMax(val);
         Console.WriteLine(max);
     }
@@ -42,12 +42,31 @@ class Program
 
         int max = values[0];
 
-        foreach (int  value in values )
+        foreach (int value in values)
         {
-           if (value > max)
-               max = value;
+            if (value > max)
+                max = value;
         }
+
         return max;
+    }
+
+
+    public static int CalculateMin(int[] values)
+    {
+        if (values == null || values.Length == 0)
+            throw new ArgumentException("Array cant be null or empty");
+
+        int min = values[0];
+
+        foreach (int value in values)
+        {
+            if (value < min)
+                min = value;
+        }
+
+        return min;
+
     }
 }
     
