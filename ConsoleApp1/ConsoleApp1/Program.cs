@@ -10,8 +10,12 @@ class Program
         int[] val = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         Console.WriteLine(val[0]);
         Console.WriteLine(num1);
+        
 
-        Console.WriteLine("Feature-average");
+        Console.WriteLine("Feature-average v2");
+        double average = CalculateAverage(val);
+        Console.WriteLine(average);
+        
     }
 
     public static double CalculateAverage(int[] values)
