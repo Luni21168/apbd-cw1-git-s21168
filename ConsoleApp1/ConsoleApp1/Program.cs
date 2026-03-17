@@ -8,6 +8,7 @@ class Program
 
         int num1 = 10;
         int[] val = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        
+        Console.WriteLine(val[0]);
+        Console.WriteLine(num1);
     }
 }
