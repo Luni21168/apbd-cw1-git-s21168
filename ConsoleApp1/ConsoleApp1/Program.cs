@@ -12,7 +12,7 @@ class Program
         Console.WriteLine(num1);
 
 
-        Console.WriteLine("Feature-average v2");
+        Console.WriteLine("Feature-conflict branch");
         double average = CalculateAverage(val);
         Console.WriteLine(average);
 
